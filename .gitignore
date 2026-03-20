@@ -25,4 +25,5 @@ dist-ssr
 
 # Local dev launcher (do not commit)
 .dev-server.pid
+.dev-server.port
 .dev-server.log

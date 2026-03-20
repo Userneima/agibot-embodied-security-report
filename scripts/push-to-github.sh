@@ -4,13 +4,13 @@
 #   1) 在网页新建公开仓库：agibot-certis-embodied-security-report（不要勾选 README）
 #   2) 执行：GITHUB_USERNAME=你的用户名 bash scripts/push-to-github.sh
 # 或设置完整远程地址：
-#   GIT_REMOTE_URL=https://github.com/你的用户名/agibot-certis-embodied-security-report.git bash scripts/push-to-github.sh
+#   GIT_REMOTE_URL=https://github.com/你的用户名/agibot-embodied-security-report.git bash scripts/push-to-github.sh
 
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-REPO_NAME="agibot-certis-embodied-security-report"
+REPO_NAME="agibot-embodied-security-report"
 
 if [[ -n "${GIT_REMOTE_URL:-}" ]]; then
   URL="$GIT_REMOTE_URL"

@@ -11,7 +11,7 @@ npm run dev
 
 ## 推送到 GitHub
 
-1. 在 GitHub 网页 **[New repository](https://github.com/new)** 创建**公开**仓库，名称填 **`agibot-certis-embodied-security-report`**，**不要**勾选 README / .gitignore / license（保持空仓库）。
+1. 在 GitHub 网页 **[New repository](https://github.com/new)** 创建**公开**仓库，名称填 **`agibot-embodied-security-report`**，**不要**勾选 README / .gitignore / license（保持空仓库）。
 2. 在项目根目录执行（把 `你的用户名` 换成你的 GitHub 用户名）：
 
 ```bash
@@ -22,7 +22,7 @@ GITHUB_USERNAME=你的用户名 bash scripts/push-to-github.sh
 或手动：
 
 ```bash
-git remote add origin https://github.com/你的用户名/agibot-certis-embodied-security-report.git
+git remote add origin https://github.com/你的用户名/agibot-embodied-security-report.git
 git branch -M main
 git push -u origin main
 ```
